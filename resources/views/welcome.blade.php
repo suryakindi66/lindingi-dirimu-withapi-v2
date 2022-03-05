@@ -62,13 +62,22 @@ https://templatemo.com/tm-568-digimedia
                   <div class="col-lg-12">
                     <h6>Lindingi Diri Mu</h6>
                     <h2>Catat Perjalanan Kamu</h2>
-                    <font style="color:grey">Catat perjalananmu hari ini, tetap patuhi protokol kesehatan, agar dapat membantu memutus rantai penularan virus.</font>
+                    <font style="color:grey">Catat perjalananmu hari ini, tetap patuhi protokol kesehatan, agar dapat membantu memutus rantai penularan virus.</font><br><br>
+                    <font style="color:grey">Data Sebaran Mengenai Covid-19 Di Indonesia : </font> <br>
+                    <font style="color:orange">Positif : {{$datapositif}} Orang </font> <br>
+                    <font style="color:blue">Dirawat : {{$datadirawat}} Orang</font> <br>
+                    <font style="color:green">Sembuh : {{$datasembuh}} Orang</font> <br>
+                    <font style="color:red">Meninggal : {{$datameninggal}} Orang</font> <br>
+                    <b><font style="color:gray">LastUpdate : {{$lastupdate}}</font><br>
+                    <font style="color:gray">Real Data Statistic From API Covid-19</font></b>
                     
                   </div>
                   <div class="col-lg-12"><br>
                     <div class="border-first-button scroll-to-section">
-                      <a href="/login">Disini</a>
+                      <a href="/login">Catat Perjalananmu Disini</a>
+                      
                     </div>
+                    
                     <br><font><i>Development By Surya Kindi.</i></font>
                     <br><font><i>Inspiration Aplication From Peduli Lindungi.</i></font>
                     
@@ -80,6 +89,10 @@ https://templatemo.com/tm-568-digimedia
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <img src="/assets-landingpage/assets/images/slider-dec-v3.png" alt="">
+              
+                  
+                </div>
+                
               </div>
             </div>
           </div>
