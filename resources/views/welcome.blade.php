@@ -63,13 +63,11 @@ https://templatemo.com/tm-568-digimedia
                     <h6>Lindingi Diri Mu</h6>
                     <h2>Catat Perjalanan Kamu</h2>
                     <font style="color:grey">Catat perjalananmu hari ini, tetap patuhi protokol kesehatan, agar dapat membantu memutus rantai penularan virus.</font><br><br>
-                    <font style="color:grey">Data Sebaran Mengenai Covid-19 Di Indonesia : </font> <br>
-                    <font style="color:orange">Positif : {{$datapositif}} Orang </font> <br>
-                    <font style="color:blue">Dirawat : {{$datadirawat}} Orang</font> <br>
-                    <font style="color:green">Sembuh : {{$datasembuh}} Orang</font> <br>
-                    <font style="color:red">Meninggal : {{$datameninggal}} Orang</font> <br>
-                    <b><font style="color:gray">LastUpdate : {{$lastupdate}}</font><br>
-                    <font style="color:gray">Real Data Statistic From API Covid-19</font></b>
+                    <font style="color:grey">Data Sebaran Mengenai Covid-19 Di Indonesia : </font> <br><br>
+                    <font style="color:orange">Positif : {{$datapositif}} Orang </font> <hr width="100%">
+                    <font style="color:blue">Dirawat : {{$datadirawat}} Orang</font><hr width="100%"> 
+                    <font style="color:green">Sembuh : {{$datasembuh}} Orang</font> <hr width="100%">
+                    <font style="color:red">Meninggal : {{$datameninggal}} Orang</font> <hr width="100%">   
                     
                   </div>
                   <div class="col-lg-12"><br>
@@ -78,9 +76,7 @@ https://templatemo.com/tm-568-digimedia
                       
                     </div>
                     
-                    <br><font><i>Development By Surya Kindi.</i></font>
-                    <br><font><i>Inspiration Aplication From Peduli Lindungi.</i></font>
-                    
+                   
                     
                   </div>
                 </div>
@@ -92,7 +88,10 @@ https://templatemo.com/tm-568-digimedia
               
                   
                 </div>
-                
+                <center>
+                <br><font><i>Development By Surya Kindi.</i></font>
+                <br><font><i>Inspiration Aplication From Peduli Lindungi.</i></font>
+                <br><b><font style="color:gray">Real Data Statistic From API Covid-19</font></b></center>
               </div>
             </div>
           </div>

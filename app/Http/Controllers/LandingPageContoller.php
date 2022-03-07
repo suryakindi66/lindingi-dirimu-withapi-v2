@@ -13,13 +13,16 @@ class LandingPageContoller extends Controller
      */
     public function index()
     {
+       function get_CURL($url){
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://apicovid19indonesia-v2.vercel.app/api/indonesia/more');
+        curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
         $result = curl_exec($curl);
         curl_close($curl);
+        return json_decode($result, true);
+       };
         
-        $result = json_decode($result, true);
+        $result = get_CURL('https://apicovid19indonesia-v2.vercel.app/api/indonesia/more');
         $datapositif = $result['total']['positif'];
         $datadirawat = $result['total']['dirawat'];
         $datasembuh = $result['total']['sembuh'];
