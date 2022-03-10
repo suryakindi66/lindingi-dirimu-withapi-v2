@@ -124,7 +124,7 @@
             <br>
             <div class="form-group">
                 <form action="/user/dashboard">
-              <input type="text" placeholder="Search Lokasi" style="margin-left: 40px" name="search">
+              <input type="text" placeholder="Search Ayat" style="margin-left: 40px" name="search">
                 </form>
               </div>
             <div class="container-fluid pt-4 px-4">
